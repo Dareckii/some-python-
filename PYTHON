@@ -1,0 +1,152 @@
+ZADANIE KOLEJKA GORSKA
+
+#age = 12 #input()# bez pytania dziala, 
+#height = 150 #input()
+
+print("podaj swoj wiek: ")
+wiek = input()
+print("podaj swoj wzrost: ")
+wzrost = input()
+type(int(wzrost))
+type(int(wiek))
+if wiek >= 10 and wzrost >= 140:
+  print("pozwolenie")
+if not wiek >= 10 and wzrost >= 140:
+  print("brak pozwolenia")
+
+
+
+ZADANIE EMAIL
+
+print("podaj swoj email: ")
+login = input()
+if "@" not in login or "." not in login:
+  print("popraw email ")
+  print("podaj swoj email")
+  login = input()
+print("podaj swoje haslo")
+haslo = input()
+print("podaj swoj wiek: ")
+wiek = input()
+type(wiek)
+if (type(str)) in wiek:
+  print("podaj wiek w liczbach")
+else:
+  if (type(float)) in wiek:
+    print("podaj swoja plec: ")
+
+
+
+KAMIEN PAPIER NOZYCE 
+
+import random
+print("gra papier kamien nozyce")
+print("zaczynamy gre")
+komputer = random.randit(1,3)
+print(komputer)
+komputer = str(komputer)
+print("wybierz jedno (1) papier (2) kamien (3) nozyce?")
+while ask not in ("1", "2", "3"):
+  print("wybierz poprawy ruch")
+  ask = input
+
+ask = int(ask)
+#ask = input
+#if ask > 3:
+ # print("wybierz ponownie")
+#else:
+  #print("teraz wybierze komputer")
+if ask == 1 and komputer == 1:
+  print("remis")
+elif ask == 2 and komputer == 2:
+  print("remis!")
+elif ask == 3 and komputer == 3:
+  print("remis")
+elif ask == 2 and komputer == 1:
+  print("przegrales")
+elif ask == 2 and komputer == 3:
+  print("wygrales")
+elif ask == 3 and komputer == 2:
+  print("wygrales")
+elif ask == 1 and komputer == 3:
+  print("przegrales")
+elif ask == 3 and komputer == 1:
+  print("wygrales")
+elif ask == 3 and komputer == 2:
+  print("przegrales")
+
+
+
+ZADANIE LOSOWANIE POGODY
+
+#wybierz  losowa pogode
+#zapytaj uzytkownika jaka lubi pogode
+#napisz jaka jest pogoda
+#ocen nastroj uzytkownika
+import random
+pogoda = ["deszcz", "slonecznie", "snieg", "wietrznie"]
+x = random.sample(pogoda,1)
+print(x)
+
+print("jaka pogode lubisz? ")
+input()
+c = input
+print("akutalnie za oknem jest snieznie")
+if "deszcz" in x:
+  print("nastroj lekko depresyjny")
+if "slonecznie" in x:
+  print("napewno jestes radosny")
+if "snieg" in x:
+  print("pogoda zacheca do lezenia pod kocem")
+if "wietrznie" in x:
+  print("alez wieje")
+
+
+
+
+ZAGDYWANKA PLANETY
+
+import random
+planety = ["merkury", "wenus", "ziemia", "mars", "jowisz", "saturn", "uran", "neptune"]
+x = random.sample(planety,1)
+if "ziemia" in x:
+  print("jest zielona i mokra")
+if "merkury" in x:
+  print("jest malutka")
+if "wenus" in x:
+  print("stamtąd sa kobiety")
+if "mars" in x:
+  print("stamtąd sa mężczyźni")
+if "jowisz" in x:
+  print("jest najwieksza w układzie słonecznym")
+if "saturn" in x:
+  print("taki sklep z agd")
+if "uran" in x:
+  print("robimy z niego bomby")
+if "neptune" in x:
+  print("cała niebieska")
+  
+print("co to za planeta, zgadnij")
+lista = input()
+if "ziemia" in lista:
+  print("dobrze to ziemia")
+if "merkury" in lista:
+  print("tak to merkury")
+if "wenus" in lista:
+  print("tak to wenus")
+if "jowisz" in lista:
+  print("tak to jowisz")
+if "saturn" in lista:
+  print("tak to saturn")
+if "uran" in lista:
+  print("tak to uran")
+if "neptune" in lista:
+  print("tak to neptun")
+if not in planety:
+  print("pomylka jeszcze dwie proby")
+
+
+
+
+
+  
